@@ -1,0 +1,185 @@
+{
+  "get-questions": [
+    {
+      "id": 1,
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+    },
+    {
+      "id": 2,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 3,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 4,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 5,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 6,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 7,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 8,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 9,
+      "title": "Scrum in a fixed cost project?"
+    },
+    {
+      "id": 10,
+      "title": "Scrum in a fixed cost project?"
+    }
+  ],
+  "login": [
+    {
+      "email": "vks.20cse@kongu.edu",
+      "pwd": "1234567aA@"
+    }
+  ],
+  "ques-with-answer": [
+    {
+      "id": 1234,
+      "question": "what is scrum ?",
+      "ans": [
+        {
+          "id": 1,
+          "answer": "Scrum is an agile Methodology"
+        },
+        {
+          "id": 2,
+          "answer": "Scrum is an agile Methodology"
+        },
+        {
+          "id": 3,
+          "answer": "Scrum is an agile Methodology"
+        },
+        {
+          "id": 4,
+          "answer": "Scrum is an agile Methodology"
+        }
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": "20csr236",
+      "name": "vimalkumar",
+      "email": "vk.20cse@kongu.edu",
+      "year": 3,
+      "pwd": "1234aA@",
+      "ques_asked": 100,
+      "ans_posted": 2000
+    },
+    {
+      "id": "20csr237",
+      "name": "vimalkumar",
+      "email": "vk.20cse@kongu.edu",
+      "year": 3,
+      "pwd": "1234aA@",
+      "ques_asked": 100,
+      "ans_posted": 2000
+    }
+  ],
+  "save": [
+    {
+      "id": "20csr236",
+      "name": "vimalkumar",
+      "email": "vk.20cse@kongu.edu",
+      "year": 3,
+      "pwd": "1234aA@"
+    },
+    {
+      "id": "20csr237",
+      "name": "vimalkumar",
+      "email": "vk.20cse@kongu.edu",
+      "year": 3,
+      "pwd": "1234aA@"
+    },
+    {
+      "id": "20csr235",
+      "name": "[object Object][object Object]",
+      "year": 1,
+      "email": "vimal.20cse@kongu.edu",
+      "password": "1234567aA@"
+    },
+    {
+      "id": "20csr239",
+      "name": "vimalkumar",
+      "year": 1,
+      "email": "vimal.20cse@kongu.edu",
+      "password": "1234567aA@"
+    }
+  ],
+  "generate-otp": [
+    {
+      "email": "v.30cse@kongu.edu"
+    },
+    {
+      "id": "vimal.20cse@kongu.edu"
+    },
+    {
+      "email": "vimal.20cse@kongu.edu",
+      "id": "aAEljud"
+    },
+    {
+      "email": "vimal.20cse@kongu.edu",
+      "id": "tZzMfMj"
+    },
+    {
+      "email": "vimal.20cse@kongu.edu",
+      "id": "r-9UhrL"
+    },
+    {
+      "email": "vimal.20cse@kongu.edu",
+      "id": "S_TemaV"
+    },
+    {
+      "email": "senthil.20cse@kongu.edu",
+      "id": "HnU8JL2"
+    },
+    {
+      "email": "veda.20cse@kongu.edu",
+      "id": "CFvzqn7"
+    }
+  ],
+  "verify-otp": [
+    {
+      "id": 1,
+      "email": "v.30cse@kongu.edu"
+    },
+    {
+      "id": "2005",
+      "email": "v.30cse@kongu.edu"
+    },
+    {
+      "id": "2345",
+      "email": "v.30cse@kongu.edu"
+    },
+    {
+      "email": "vimal.20cse@kongu.edu",
+      "id": "980"
+    },
+    {
+      "email": "senthil.20cse@kongu.edu",
+      "id": "12345678"
+    },
+    {
+      "email": "veda.20cse@kongu.edu",
+      "id": "123432555324"
+    }
+  ],
+  "tips": {
+    "tip": "Consistency is the key...!"
+  }
+}

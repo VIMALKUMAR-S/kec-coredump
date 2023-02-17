@@ -1,0 +1,233 @@
+$bgcolor: #7895B2;
+$logo-bg: #AEBDCA;
+$input-bg: #E8DFCA;
+$button-bg: #B1B2FF;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.signup-page {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    background-color: $logo-bg;
+    overflow: hidden;
+
+    .background-img {
+        width: 50%;
+        height: 100%;
+        border-radius: 10px;
+        border-style: solid;
+
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .form-container {
+        background-color: $bgcolor;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .logo-container {
+            width: 100%;
+            height: fit-content;
+            background-color: $logo-bg;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+
+            margin: 5px;
+            display: flex;
+            justify-content: space-evenly;
+
+            .wrapper {
+                display: flex;
+                flex-direction: column;
+            }
+
+            input {
+
+                text-align: center;
+                width: 250px;
+                height: 50px;
+                background: $input-bg;
+                border: 2px solid #000000;
+                border-radius: 100px;
+            }
+
+            .instructions {
+                font-size: 0.75rem;
+                border-radius: 0.5rem;
+                background: #000;
+                color: #fff;
+                padding: 0.25rem;
+                position: relative;
+                z-index: 9;
+                bottom: -10px;
+
+                svg {
+                    margin-right: 0.25rem;
+                }
+            }
+
+            .offscreen {
+                position: absolute;
+                left: -9999px;
+            }
+        }
+
+        .button-wrapper {
+            display: flex;
+            justify-content: center;
+
+            button {
+
+                width: 100px;
+                height: 40px;
+                background-color: $button-bg;
+                color: #000;
+                border-radius: 20px;
+            }
+        }
+
+        .login-link {
+            display: flex;
+            justify-content: center;
+
+            .line {
+                display: inline-block;
+
+            }
+        }
+    }
+}
+
+// @media screen and (max-width:760px) {
+
+//     .signup-page {
+//         display: flex;
+//         flex-direction: column;
+//         // height: 100vh;
+//         width: 100vh;
+//         overflow: scroll;
+
+//         .background-img {
+//             width: 80vh;
+//             height: 30vh;
+//             border-radius: 20px;
+//             border-style: solid;
+//             overflow: hidden;
+
+//             img {
+
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: cover;
+//                 border-radius: 15px;
+//             }
+//         }
+
+//         .form-container {
+//             overflow: hidden;
+//             width: 100vw;
+//             display: flex;
+//             flex-direction: column;
+//             align-items: center;
+
+//             .logo-container {
+//                 width: 100%;
+//                 height: 100px;
+//                 background-color: $logo-bg;
+//                 display: flex;
+//                 justify-content: center;
+
+//                 img {
+//                     width: 70px;
+//                     height: 70px;
+//                 }
+//             }
+
+//             .container {
+
+//                 // margin: 5px;
+//                 display: flex;
+//                 flex-direction: column;
+//                 // justify-content: space;
+
+//                 .wrapper {
+//                     display: flex;
+//                     flex-direction: column;
+//                     margin: 5px;
+//                 }
+
+//                 input {
+
+//                     text-align: center;
+//                     width: 250px;
+//                     height: 50px;
+//                     background: $input-bg;
+//                     border: 2px solid #000000;
+//                     border-radius: 100px;
+//                 }
+
+//                 .instructions {
+//                     font-size: 0.75rem;
+//                     border-radius: 0.5rem;
+//                     background: #000;
+//                     color: #fff;
+//                     padding: 0.25rem;
+//                     position: relative;
+//                     z-index: 9;
+//                     bottom: -10px;
+
+//                     svg {
+//                         margin-right: 0.25rem;
+//                     }
+//                 }
+
+//                 .offscreen {
+//                     position: absolute;
+//                     left: -9999px;
+//                 }
+//             }
+
+//             .button-wrapper {
+//                 display: flex;
+//                 justify-content: center;
+
+//                 button {
+
+//                     width: 100px;
+//                     height: 40px;
+//                     background-color: $button-bg;
+//                     color: #000;
+//                     border-radius: 20px;
+//                 }
+//             }
+
+//             .login-link {
+//                 display: flex;
+//                 justify-content: center;
+
+//                 .line {
+//                     display: inline-block;
+
+//                 }
+//             }
+//         }
+
+//     }
+// }
